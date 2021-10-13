@@ -16,7 +16,7 @@ public class Cat extends Mammal{
         this.weight = weight;
         this.sex = sex;
     }
-
+    public Cat(){};
     //Methods
 
     @Override
@@ -27,5 +27,29 @@ public class Cat extends Mammal{
     @Override
     public Animal reproduce(Animal mother, Animal father) {
         return null;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }
