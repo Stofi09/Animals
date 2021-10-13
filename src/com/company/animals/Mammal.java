@@ -10,6 +10,10 @@ public abstract class Mammal extends Animal {
 
 
     public Mammal reproduce(Mammal mother, Mammal father){
-        return  mother;
+        return  null;
     }
+    public void breath(){
+        System.out.println("I am breathing");
+    }
+
 }

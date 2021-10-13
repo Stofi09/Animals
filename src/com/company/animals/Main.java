@@ -3,6 +3,12 @@ package com.company.animals;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Cat cat = new Cat();
+        cat.setName("Tidles");
+        System.out.println(cat.getName());
+
+        cat.breath();
+        cat.poop();
     }
 }
