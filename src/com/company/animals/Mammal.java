@@ -6,6 +6,9 @@ public abstract class Mammal extends Animal {
 
     //Constructor
 
+    public Mammal(){
+        super();
+    }
     //Methods
 
 
