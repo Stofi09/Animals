@@ -10,6 +10,8 @@ public class Cat extends Mammal{
 
     //Constructor
 // super(); or this. always in a constructor
+
+
     public Cat(String name, String breed, int weight, String sex){
         setName(name);
         this.breed = breed;

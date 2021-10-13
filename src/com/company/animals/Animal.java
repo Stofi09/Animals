@@ -9,8 +9,11 @@ public abstract class Animal {
     private LocalDate dateOfBirth;
 
     //Constructors
+    public Animal(String name){
+        this.name = name;
+    }
 
-
+    public Animal(){};
     //Methods
 
     public abstract void eat(String food);
